@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-fixed px-20 bg-cover bg-center bg-no-repeat"
+    <div className="bg-fixed md:px-20 px-5 bg-cover bg-center bg-no-repeat"
     style={{ backgroundImage: "url('aurora.jpg')" }}>
       <div className="bg-white/80 shadow-lg w-full h-880 px-10">
 <div>
@@ -11,7 +11,7 @@ export default function Home() {
         Hello everyone!🥰 My name is Violet Chen. This is my final year studying Computer Science and Infomation System Management.
         I was born in China in 2003, and I lived in my home country for 15 years before moving to New Zealand. 
       </p>
-      <div className="grid grid-cols-2 max-w-200 gap-8 items-center px-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 max-w-200 gap-8 items-center px-10">
         <img src="/viocake.jpg" alt="bbq" className="w-full h-auto rounded-md" />
 
 
@@ -25,7 +25,7 @@ export default function Home() {
       <p className="mb-4 text-lg">
       I enjoy trying out different restaurants around Auckland.
       </p>
-      <div className="grid grid-cols-2 max-w-250 gap-8 items-center px-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 max-w-250 gap-8 items-center px-10">
         <img src="/bbq.jpg" alt="bbq" className="w-full h-auto rounded-md" />
 
 
@@ -42,7 +42,7 @@ export default function Home() {
       <p className="mb-4 text-lg">
       I made a lot of friends in New Zealand! 
       </p>
-      <div className="flex flex-wrap max-w-270 items-center gap-4 px-30">
+      <div className="flex flex-wrap gap-4 max-w-2xl ">
       <img src="/denvoport.jpg" alt="denvoport" className="w-full max-w-300 h-auto rounded-md" />
       <img src="/malatang.jpg" alt="malatang" className="w-full max-w-300 h-auto rounded-md" />
       <img src="/ptchev.jpg" alt="ptchev" className="w-full max-w-300 h-auto rounded-md" />
