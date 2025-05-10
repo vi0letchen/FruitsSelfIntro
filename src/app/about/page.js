@@ -4,8 +4,8 @@ export default function About() {
         
        <div className="bg-fixed md:px-20 px-5 bg-cover bg-center bg-no-repeat"
        style={{ backgroundImage: "url('aurora.jpg')" }}>
-         <div className="bg-white/80 shadow-lg sm: pb-20 lg:pb-130 md:pb-130 max-w-5xl mx-auto px-4 md:px-10">
-         <h1 className="text-2xl sm:text-xl font-bold mb-4 p-10">My Top 3 Songs 🎶</h1>
+               <div className="bg-white/80 shadow-lg md:pb-10 lg:pb-130 w-full pb-10 px-5">         
+               <h1 className="text-2xl font-bold mb-4 p-10">My Top 3 Songs 🎶</h1>
          <ul className="list-disc pl-5 space-y-2">
 
             <div className="mt-4">
