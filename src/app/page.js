@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="bg-fixed md:px-20 px-5 bg-cover bg-center bg-no-repeat"
     style={{ backgroundImage: "url('aurora.jpg')" }}>
-      <div className="bg-white/80 shadow-lg w-full h-880 px-10">
+      <div className="bg-white/80 shadow-lg md:pb-10 lg:pb-130 w-full pb-10 px-10">
 <div>
         <h1 className="text-3xl font-bold mb-4 p-8">Hi, I'm Violet!</h1>
         <p className="mb-4 text-lg">
@@ -59,13 +59,10 @@ export default function Home() {
           <img
             src="/GPT.jpg"
             alt="Clickable Button Image"
-            className="my-5 ml-15 w-48 rounded-lg shadow-md hover:scale-105 hover:shadow-xl transition transform duration-200"
+            className="my-5 w-48 rounded-lg shadow-md hover:scale-105 hover:shadow-xl transition transform duration-200"
           />
       </a>
       </div>
-      </div>
-      <div>
-        <p>       ww</p>
       </div>
 
     </div>
