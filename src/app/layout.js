@@ -35,6 +35,11 @@ export default function RootLayout({ children }) {
                 About
               </Link>
             </li>
+            <li>
+              <Link href="/form" className="hover:bg-gray-800 px-6 py-4 transition duration-200">
+                Form
+              </Link>
+            </li>
           </ul>
         </nav>
         <main>{children}</main>
